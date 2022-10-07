@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background-color: #f3f5f9;
+}
+
+.table-wrapper {
+	margin-top: 20px;
+	margin: 20px;
+	box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.table-wrapper p {
+	top: 50%;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: black;
+	text-align: center;
+}
+
+.table-wrapper img {
+	height: 200px;
+}
+
+.fl-table {
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: normal;
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 100%;
+	white-space: nowrap;
+	background-color: white;
+}
+
+.fl-table td, .fl-table th {
+	text-align: center;
+	padding: 10px;
+}
+
+.fl-table td {
+	border-right: 1px solid #c0c0c0;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.fl-table thead th {
+	font-size: 16px;
+	color: #ffffff;
+	background: #4b4276;
+}
+
+.fl-table td a {
+	padding: 12px;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.btnsuccess {
+	background-color: #229954;
+}
+
+.btndanger {
+	background-color: #E74C3C;
+}
+
+.btnprimary {
+	background-color: #4b4276;
+}
+
+/* Table Style (Role)*/
+.role-wrapper {
+	margin-top: 20px;
+	margin: 20px;
+	box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.role-wrapper p {
+	top: 50%;
+	font-size: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: black;
+	text-align: center;
+}
+
+.rl-table {
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: normal;
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 100%;
+	white-space: nowrap;
+	background-color: white;
+}
+
+.rl-table td, .rl-table th {
+	text-align: center;
+	padding: 10px;
+}
+
+.rl-table td {
+	border-right: 1px solid #c0c0c0;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.rl-table thead th {
+	font-size: 16px;
+	color: #ffffff;
+	background: #4b4276;
+}
+
+.rl-table thead th:nth-child(odd) {
+	color: #000000;
+	background: #ffffff;
+}
+
+.heading img {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 70px;
+	width: 70px;
+	height: 70px;
+}
+
+.heading h3 {
+	text-align: center;
+	font-weight: 700;
+	color: #4b4276;
+}
+
+.heading p {
+	margin-top: -5px;
+	text-align: center;
+}
+
+.copy p {
+	margin-left: 10px;
+	font-size: 10px;
+}

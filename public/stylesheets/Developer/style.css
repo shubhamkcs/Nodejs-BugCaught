@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+* {
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background-color: #f3f5f9;
+}
+/*--------------	Navbar Style Start  -----------*/
+.navbarMenu
+{
+	background-color: #4b4276;
+	height:60px;
+	color:white;
+	
+}
+.heading a
+{
+	
+	color:white;
+	font-weight:700;
+	font-size:28px;
+	margin-left:25px;
+	
+}
+
+.heading a:hover
+{
+	color:#fff;
+}
+.navbarMenu a
+{
+	color:white;
+}
+.navbarMenu a:hover
+{
+	color:white;
+}
+
+/*--------------	Navbar Style End  -----------*/
+
+/*--------------	index page style start  ----------*/
+
+.table-wrapper{
+	
+    margin-top:20px;
+    margin:20px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.table-wrapper p
+{
+	top:50%;
+	font-size:20px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	color:black;
+	text-align: center;
+}
+
+.table-wrapper img
+{
+	height:200px;
+	
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.fl-table td {
+    border-right: 1px solid #c0c0c0;
+    padding:10px;
+    font-size: 16px;
+}
+
+.fl-table thead th {
+	font-size: 16px;
+    color: #ffffff;
+    background: #4b4276;
+}
+
+.fl-table td a
+{
+	padding:12px;
+	font-size:15px;
+	color:white;
+	text-decoration: none;
+}
+
+.btnsuccess
+{
+	background-color: #229954;
+	
+}
+
+.btndanger
+{
+	background-color: #E74C3C;
+	
+}
+
+.btnprimary
+{
+	background-color: #4b4276;
+}
+
+
+/*--------------	index page style End  ----------*/
+
+/*---------------- Bug -----------------*/
+.mainForm
+{
+	margin-top:40px;
+	
+	height:auto;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:30px;
+	background-color: #4b4276;
+	color:#fff;
+}
+
+.mainForm p
+{
+	font-size: 30px;
+	text-align: center;
+}
+.mainForm label
+{
+	text-align: left;
+	padding: 10px;
+}
+.mainForm textarea
+{
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	border-style: none;
+	border-radius: 5px;
+}
+.mainForm select
+{
+	border-style: none;
+	color:#4b4276;
+	padding:5px;
+	
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+.mainForm input[type=text]
+{
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	width: 300px;
+}
+.mainForm h4,h6
+{
+	text-align: center;
+}
+.mainForm input[type=submit]
+{
+	margin-top:20px;
+	border-style:none;
+	background-color:#fff;
+	color:#4b4276;
+	padding:10px;
+	border-radius:5px;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+.mainForm hr
+{
+	color:#fff;
+}
+.testerData p
+{
+	margin:0px;
+	font-size: 12px;
+}
