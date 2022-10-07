@@ -49,4 +49,10 @@ router.post('/loginjwt', Users.createToken);
 
 router.get('/varifyAPI',Users.validateApis);
 
+router.get('/test', (req,res) =>{
+    console.log(process.argv);
+    const myargs = process.argv.slice(2);
+    console.log('my args',myargs);
+});
+
 module.exports = router;

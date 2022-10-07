@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const color = require('colors');
+
 /**
  * Module dependencies.
  */
@@ -31,6 +33,7 @@ var server = http.createServer(app);
 
 server.listen(port, () => {
   console.log('Server Started boi on port no : ' + port);
+  console.log('Follow link -> '+`http://localhost:${port}`.yellow)
 });
 server.on('error', onError);
 server.on('listening', onListening);
