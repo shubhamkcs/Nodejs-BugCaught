@@ -92,10 +92,7 @@ exports.loginchk = async (req,res) => {
 
     var email = req.body.uemail;
     var password = req.body.upassword;
-    
-    var bryptPassword = await bcrypt.hash(password,12);
-    console.log(bryptPassword);
-    
+     
     User.findUserByEmailPsw(email,password, (error,rows) => {
 
         if(error)
