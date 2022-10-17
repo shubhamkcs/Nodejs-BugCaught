@@ -19,8 +19,8 @@ class User {
 
     /**
      * 
-     * @param {*} newUser 
-     * @param {*} result 
+     * @param {*} newUser parameter playload of user
+     * @param {*} result set return value 
      */
     static create(newUser, result) {
 
@@ -38,7 +38,7 @@ class User {
 
     /**
      * 
-     * @param {*} result 
+     * @param {*} result set return value 
      */
     static findAll(result) {
         connection.query('SELECT * FROM users', (err, res) => {
