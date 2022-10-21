@@ -31,7 +31,6 @@ app.use(bodyParsor.json());
 app.use(bodyParsor.urlencoded({ extended: true }));
 
 
-
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/bug',bugRouter);
