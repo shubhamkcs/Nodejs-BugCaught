@@ -4,8 +4,8 @@ const bcrypt = require('bcrypt');
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.findAll = (req, res) => {
     User.findAll((err, rows) => {
@@ -23,8 +23,8 @@ exports.findAll = (req, res) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  * @param {*} error 
  */
 exports.saveUser = async (req, res, error) => {
@@ -59,8 +59,8 @@ exports.saveUser = async (req, res, error) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.findUserByUid = (req, res) => {
     User.findUserByUid(req.params.uid, (error, rows) => {
@@ -85,8 +85,8 @@ exports.findUserByUid = (req, res) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.loginchk = async (req,res) => {
 
@@ -113,8 +113,8 @@ exports.loginchk = async (req,res) => {
 
  /**
   * 
-  * @param {*} req 
-  * @param {*} res 
+  * @param {*} req for http request
+  * @param {*} res for http response
   */
 exports.deleteUserById = (req, res) => {
 
@@ -144,8 +144,8 @@ exports.deleteUserById = (req, res) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.updateUserById = (req, res) => {
 
@@ -181,8 +181,8 @@ exports.updateUserById = (req, res) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.createToken = (req,res) => {
 
@@ -218,8 +218,8 @@ exports.createToken = (req,res) => {
 
 /**
  * 
- * @param {*} req 
- * @param {*} res 
+ * @param {*} req for http request
+ * @param {*} res for http response
  */
 exports.validateApis = (req,res) => {
     const token = req.headers['access-token'];
