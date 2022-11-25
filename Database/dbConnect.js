@@ -1,6 +1,8 @@
 var mysql = require('mysql');
 require('dotenv').config();
 
+const port = process.env.PORT
+
 var connection = mysql.createConnection({
     host : process.env.host,
     user : process.env.user,
@@ -17,6 +19,7 @@ connection.connect(function(error)
     }
     else{
         console.log('Successfully Connected !');
+        console.log('Follow link -> '+`http://localhost:${port}`.yellow)
     }
 });
 
